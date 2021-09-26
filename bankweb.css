@@ -1,0 +1,38 @@
+body{
+    background: url("https://scontent.fhyd1-2.fna.fbcdn.net/v/t1.6435-9/219060590_3046527568959597_3891173684962435294_n.jpg?_nc_cat=108&ccb=1-5&_nc_sid=730e14&_nc_ohc=VFQpQ3OBjX4AX9l-Z-0&_nc_ht=scontent.fhyd1-2.fna&oh=a2343f5464fd8da351578d53d73bad86&oe=616C0E92") no-repeat;
+     background-size: cover;
+     position: center;
+     
+}
+ ul li{
+    float:left;
+    width: 110px;
+    list-style: none;
+    background-color: coral;
+    border-radius: 5px;
+    text-align: center;
+}
+    ul li ul{
+        display:none;
+        height:30px;
+        width: 70px;
+    }
+    ul li li{
+        border-radius: 5px;
+        text-align: center;
+    }
+    a{
+        text-decoration: none;
+        color:yellow
+    }
+    ul li:hover>ul{
+        display: block;
+        border-radius: 5px;
+    }
+    .add{
+        border: 1px solid red;
+        color: yellow;
+    }
+    a:hover{
+        letter-spacing: 4px;
+    }

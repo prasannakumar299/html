@@ -1,0 +1,99 @@
+*{
+    font-family: sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+p{
+    font: weight 300 ;
+    color: #111;
+}
+.banner{
+    background: url(/restuarent.html) no-repeat;
+    background-size: cover;
+    align-items: center;
+    position: relative;
+    min-height: 100vh;
+    justify-content: center;
+    width: 100%;
+    display: flex;
+    opacity: 0.8;
+}
+.banner .content{
+    max-width: 900px;
+    text-align: center;
+}
+.banner .content h2{
+    font-size: 4em;
+    color:white;
+
+}
+.banner .content p{
+    font-size: 1em;
+    color: white;
+}
+.btn{
+    font-size: 1em;
+    background: #ff0157;
+    color: #fff;
+    display: inline-block;
+    margin:20px ;
+    text-decoration: none;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    transition: 0.5s;
+}
+.btn:hover{
+    letter-spacing: 6px;
+}
+ header{  
+    position: fixed;
+    width: 100%;
+    padding: 40px 10px;
+    z-index: 1;
+    display: flex;
+    transition: 0.5s;
+    align-items: center;
+    justify-content: space-between;
+    transition: 0.5s;
+
+}
+ header.sticky{ 
+    background: #fff;
+    padding: 40px 100px;
+    box-shadow: 0 5px 20px rgba(0,0,0,00.5);
+}
+header .logo{
+    color: #fff;
+    font-weight: 700;
+    font-size: 2em;
+    text-decoration: none;
+}
+header.sticky .logo{
+    color: #111;
+ }
+head.logo span{ 
+    color: #ff0157;
+}
+.navigation{
+    position: relative;
+    display: flex;
+    width: 550px;
+    
+}
+ li{
+    list-style: none
+}
+ a{
+    color: white;
+    text-decoration: none;
+    font-weight: 400;
+    padding: 15px;
+
+}
+header.sticky .navigation li a{
+    color: #111;
+}
+header.navigation li a:hover{
+   
+}

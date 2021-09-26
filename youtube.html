@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>food</title>
+    <link rel="stylesheet" href="youtube.css">
+</head>
+<body>
+    <header> 
+        <a href="#" class="logo">Food <span>.</span></a>
+        <ul class="navigation">
+            <li><a href="#banner">Home</a></li>
+            <li><a href="#banner">About</a></li>
+            <li><a href="#banner">Menu</a></li>
+            <li><a href="#banner">Expert</a></li>
+            <li><a href="#banner">Testimonials</a></li>
+            <li><a href="#banner">Contact</a></li>
+        </ul>
+     </header> 
+    <section class="banner" id="banner">
+        <div class="content">
+            <h2>Always Choose Good</h2>
+            <P>I can assure you I am fully qualified & insured to take your instructions; at the same time offering you advice and recommendations should your requirements be more complicated, no obligation.</P>
+           <a href="#" class="btn">our Menu</a>
+
+        </div>
+
+    </section>
+    <script type="text/javascript">
+    window.addEventListener('scroll',function(){
+        const header=document.querySelector('header');
+        header.classlist.toggle("sticky",window.scrollY > 0);
+    })
+    </script>
+</body>
+</html>
